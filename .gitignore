@@ -1,15 +1,21 @@
-# Virtual Environment
-backend/venv/
-
-# Python cache
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 
-# Environment variables
-.env
+# Virtual Environment
+venv/
+.env/
 
-# VS Code settings
+# VS Code
 .vscode/
 
-# macOS files
+# Database
+*.db
+
+# Logs
+*.log
+
+# OS Files
 .DS_Store
+Thumbs.db
